@@ -1,38 +1,194 @@
-.App {
+body{
+  background-color: black;
+  color: white;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  padding-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 0px 1px greenyellow;
+}
+h2:hover{
+  padding: 0px 0px 15px 15px;
+  display: flex;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+  color: red;
+  text-shadow: 1px 0px 1px white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tag{
+  display: flex;
+  align-items: center;
+  padding: 0px 50px;
+  font-family: monospace;
+  font-size: 16px;
+}
+.tag > p{
+  margin: 0px 20px;
+  margin: 0px;
+  text-shadow: 1px 0px 1px greenyellow;
+}
+.btn-a{
+  padding: 5px;
+}
+.tag > h4{
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  margin: 5px 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  color: greenyellow;
+}
+.tag > h4:hover{
+  color: black;
+  background-color: aliceblue;
+  padding: 8px;
+}
+.btn{
+  padding: 10px;
+  margin: 10px;
+}
+.btn > a{
+  padding: 6px;
+  border: 0px solid white;
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  font-family: sans-serif;
+  background-color: greenyellow;
+}
+.btn > a:hover{
+  padding: 12px;
+  margin: 5px;
+  background-color: rgb(137, 229, 0);
+}
+section{
+  margin: 0px;
+  padding: 0px;
+}
+section >img{
+  width: 120px;
+}
+.main-c{
+  margin-top: 0px;
+  border-top: 1px solid greenyellow;
+}
+.main-c > h3{
+  font-style: oblique;
+  font-stretch: extra-expanded;
+  font-size: 22px;
+  color: white;
+  text-shadow: 1px 0px 1px greenyellow;
+}
+.abt{
+  margin: 60px 10px;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 17px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-a{
+  margin: 60px 0px;
+}
+.main-a > h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abt:hover{
+  border-bottom: 1px dashed palegoldenrod;
+  border-top: 1px dashed palegoldenrod;
+  color: rgb(225, 248, 241);
+  font-stretch: narrower;
+  background-color: aliceblue;
+  color: black;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fan-art{
+  width: 200px;
+  border-radius: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fan-art:hover{
+  width: 350px;
+  border-radius: 50px;
+}
+.whole-b{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 20px;
+}
+.twt{
+  width: 15px;
+}
+.id{
+  width: 80px;
+}
+.id:hover{
+  width: 95px;
+  border: 2px solid greenyellow;
+  border-radius: 70px;
+}
+.team{
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+.team-id > p{
+  display: flex;
+  font-family: monospace;
+  font-size: 11px;
+}
+.a-tag{
+  text-decoration: none;
+  font-family: monospace;
+  color: aliceblue;
+}
+.c-tag{
+  text-decoration: none;
+  color: black;
+  font-family: serif;
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  padding: 5px 8px;
+  border-radius: 20px;
+}
+.c-tag:hover{
+  padding: 11px 15px;
+  font-size: 10px;
+}
+.b-tag{
+  padding: 5px ;
+  margin: 15px;
+}
+.font{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.mem{
+  width: 80px;
+  margin: 10px;
+}
+.mem:hover{
+  width: 340px;
+}
+.mtm{
+  margin-top: 80px;
+}
+.whole-d{
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 0px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.whole-d > a{
+  margin-top: 33px;
 }
