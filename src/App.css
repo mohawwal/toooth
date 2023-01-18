@@ -184,10 +184,13 @@ section >img{
 .whole-d{
   margin-top: 30px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
   margin: 0px;
+  overflow: auto;
+  gap: 20px;
+  width: 100%;
 }
 .whole-d > a{
   margin-top: 33px;

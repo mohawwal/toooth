@@ -71,23 +71,22 @@ export default function App() {
       </div>
       <h3 className='mtm'>MY #TOOOTH MEMES</h3>
       <div className='whole-d'>
-        <div>
+        
           <Meme 
             pixs = "images/meme-1.jpeg"
           />
           <Meme 
             pixs = "images/meme-2.jpeg"
           />
-        </div>
-        <div>
+        
           <Meme 
             pixs = "images/meme-3.jpeg"
           />
           <Meme 
             pixs = "images/meme-5.jpeg"
           />
-        </div>
-        <a target="_blank" rel="noreferrer" className='c-tag' href="https://twitter.com/Arsenalpromax">View My Toshies Memes</a>
+      
+        {/* <a target="_blank" rel="noreferrer" className='c-tag' href="https://twitter.com/Arsenalpromax">View My Toshies Memes</a> */}
       </div>
       <div className='whole-b'>
         <Toshies />
