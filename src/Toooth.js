@@ -9,7 +9,7 @@ export default function Toshies(props) {
             <img className="id" src={props.img} alt="" />
             <p>
               <img className="twt" src={props.logo} alt=""/>
-              <a className="a-tag" href="">{props.at}</a>
+              <a className="a-tag" href="#">{props.at}</a>
             </p>
           </div>
         </div>
