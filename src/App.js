@@ -33,7 +33,7 @@ export default function App() {
             <h4>Ethereum</h4>
           </div>
           <div className='tag'>
-            <p>Mint date:</p>
+            <p>Mint-date:</p>
             <h4>January 24, 2023</h4>
           </div>
         </div>
