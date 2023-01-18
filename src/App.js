@@ -1,6 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-import Contact from './Toooth';
 import './App.css';
 import Toshies from './Toooth';
 import Meme from './Meme';
@@ -41,9 +38,9 @@ export default function App() {
           </div>
         </div>
         <div className='btn'>
-          <a target="_blank" href="https://opensea.io/collection/toshies/drop">Opensea</a>
-          <a target="_blank" href="https://toshies.xyz/">Website</a>
-          <a target="_blank" href="https://discord.com/invite/toshies">Discord</a>
+          <a target="_blank" rel="noreferrer" href="https://opensea.io/collection/toshies/drop">Opensea</a>
+          <a target="_blank" rel="noreferrer" href="https://toshies.xyz/">Website</a>
+          <a target="_blank" rel="noreferrer" href="https://discord.com/invite/toshies">Discord</a>
         </div>
         <p>
         </p>
@@ -63,14 +60,14 @@ export default function App() {
           his<br /> previous collections including <br />Alpacadabraz.
         </p>
         <div className='btn-a'>
-          <a target="_blank" href="https://twitter.com/ToshiesByChuck">Click here to know more</a>
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/ToshiesByChuck">Click here to know more</a>
         </div>
       </div>
       <div className='img'></div>
       <h3 className='font'>My Fan Art</h3>
       <img className='fan-art' src="/images/fanart.jpg" alt="My Toshies Fan art" />
       <div className='b-tag'>
-        <a target="_blank" className='c-tag' href="https://twitter.com/Arsenalpromax/status/1614574024796868609">View Fan Art</a>
+        <a target="_blank" rel="noreferrer" className='c-tag' href="https://twitter.com/Arsenalpromax/status/1614574024796868609">View Fan Art</a>
       </div>
       <h3 className='mtm'>MY #TOOOTH MEMES</h3>
       <div className='whole-d'>
@@ -90,7 +87,7 @@ export default function App() {
             pixs = "images/meme-5.jpeg"
           />
         </div>
-        <a target="_blank" className='c-tag' href="https://twitter.com/Arsenalpromax">View My Toshies Memes</a>
+        <a target="_blank" rel="noreferrer" className='c-tag' href="https://twitter.com/Arsenalpromax">View My Toshies Memes</a>
       </div>
       <div className='whole-b'>
         <Toshies />
