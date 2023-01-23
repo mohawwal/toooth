@@ -34,7 +34,7 @@ export default function App() {
           </div>
           <div className='tag'>
             <p>Mint-date:</p>
-            <h4>January 24, 2023</h4>
+            <h4>Jan-24-2023</h4>
           </div>
         </div>
         <div className='btn'>
