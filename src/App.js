@@ -6,7 +6,9 @@ import Meme from './Meme';
 export default function App() {
   return(
     <div className='whole'>
-      <h2>THE TOSHIES NFT</h2>
+      <div className='header2'>
+        <h2>THE TOSHIES NFT</h2>
+      </div>
       <div className='main-b'>
         <section>
           <img src="/images/toooth1.jpg" alt="Toshies Art" />
@@ -46,18 +48,18 @@ export default function App() {
         </p>
       </div>
       <div className='abt'>
-        <h3>About the founder</h3>
-        <p>Chuckchee is a skilled pixel artist<br />
+        <h3>ABOUT THE FOUNDER</h3>
+        <p>Chuckchee is a skilled pixel artist
           with 
-          over 15 years of experience<br /> in the industry. 
-          He started drawing<br />
+          over 15 years of experience in the industry. 
+          He started drawing
           at the young age of 5 and fell
-          in <br />love with pixel art later on, using it<br /> as a way to  
-          express himself. <br />Chuckchee is known for his diverse,<br />
-          humorous, and inclusive art style,<br /> as well as his 
-          pioneering work in the <br />NFT space. His art is highly valued<br />
-          by major companies and has over <br />9500 unique NFT holders on
-          his<br /> previous collections including <br />Alpacadabraz.
+          in love with pixel art later on, using it as a way to  
+          express himself. Chuckchee is known for his diverse,
+          humorous, and inclusive art style, as well as his 
+          pioneering work in the NFT space. His art is highly valued
+          by major companies and has over 9500 unique NFT holders on
+          his previous collections including Alpacadabraz.
         </p>
         <div className='btn-a'>
           <a target="_blank" rel="noreferrer" href="https://twitter.com/ToshiesByChuck">Click here to know more</a>
@@ -94,7 +96,7 @@ export default function App() {
       <div className='main-c'>
         <h3>Meet the team</h3>
         <div className='whole-b'>
-          <div>
+          <div className='memes'>
             <Toshies 
               img = "\images\p1.jpg"
               logo ="\images\twitter_PNG.png"
@@ -111,7 +113,7 @@ export default function App() {
               at = "C-Medici"
             />
           </div>
-          <div>
+          <div className='teams'>
             <Toshies 
               img = "\images\p4.jpg"
               logo ="\images\twitter_PNG.png"
